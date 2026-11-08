@@ -5,8 +5,8 @@
 //                    and optional modifiers (width, precision, flags).
 //                    They control how data is displayed or interpreted
 
-
-int main(){
+int main()
+{
       // int age = 25;
       // float price = 40.52;
       // double pi = 3.14928323523;
@@ -36,4 +36,23 @@ int main(){
       printf("%.3f\n", price1);
       printf("%.3f\n", price2);
       printf("%7.2f\n", price3);
+
+      printf("===================================\n");
+
+      // ++ --
+      // int x = 10;
+      // float y  = 3;
+      // float z = 0;
+
+      // z = x%y;
+
+      int x = 10;
+      // x ++;
+      // x --;
+      //x += 3;
+      x /= 2;
+
+      printf("%d \n", x);
+
+      return 0;
 }
