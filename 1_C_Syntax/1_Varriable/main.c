@@ -28,7 +28,7 @@ int main (){
       float price = 19.99;
 
       printf("your gpa %.1f\n", gpa);
-      printf("the price is %.2f\n", price);
+      printf("the price is %.3f\n", price);
 
       double pi = 3.14980232398122;
       printf("The value double of pi is %.15lf\n", pi);
